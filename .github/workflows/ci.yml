@@ -196,6 +196,16 @@ jobs:
           cd wgpu
           wasm-pack test --headless --chrome --features webgl --workspace
 
+  run-wasm-test:
+    name: Test run-wasm xtask
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: execute xtask run-wasm
+        run: cargo xtask run-wasm --bin hello-triangle --build-only
+
   gpu-test:
     strategy:
       fail-fast: false

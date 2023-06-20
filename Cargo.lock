@@ -260,7 +260,7 @@ dependencies = [
 [[package]]
 name = "cargo-run-wasm"
 version = "0.3.2"
-source = "git+https://github.com/ErichDonGubler/cargo-run-wasm?branch=expose-args#e9b502e50eaccb0f360deb36ccd0f42c6c56f9ba"
+source = "git+https://github.com/ErichDonGubler/cargo-run-wasm?rev=e9b502e50eaccb0f360deb36ccd0f42c6c56f9ba#e9b502e50eaccb0f360deb36ccd0f42c6c56f9ba"
 dependencies = [
  "devserver_lib",
  "pico-args",
