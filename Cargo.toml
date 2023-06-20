@@ -11,6 +11,7 @@ members = [
     "wgpu-info",
     "wgpu-types",
     "tests",
+    "xtask",
 ]
 exclude = []
 default-members = [
